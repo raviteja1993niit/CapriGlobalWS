@@ -1,0 +1,72 @@
+package com.cgcl.beans;
+
+import java.util.Date;
+
+import lombok.Data;
+
+@Data
+public class CgclDgBlkBean {
+		private long requestId;
+		private String cust_unq_id;
+		private String cust_id;
+		private String lead_id;
+		private String batch_id;
+		private String deal_id_app_id;
+		private String psx_batch_id;
+		private String old_psx_batch_id;
+		private Date lchgtime;
+		private String duiflag;
+		private String eventtype;
+		private Date inserttime;
+		private String name;
+		private String applicantFullName;
+		private String cin;
+		private String firstname;
+		private String middlename;
+		private String lastname;
+		private Date dob;
+		private String panno;
+		private String passportno;
+		private String voterid;
+		private String aadharNo;
+		private String drivinglicense;
+		private String fathername;
+		private String highesteducation;
+		private String motherMaidenName;
+		private String tanno;
+		private String primaryoccupation;
+		private String residencestatus;
+		private String sourcesystemname;
+		private String customercategory;
+		private String customertypecode;
+		private String gender;
+		private String martialstatus;
+		private String customer;
+		private String account_status;
+		private String caste;
+		private String cibil_score;
+		private String dinno;
+		private Date doi;
+		private String gstin;
+		private String lan;
+		private String matchingruleprofile;
+		private String product;
+		private String registration_no;
+		private String religion;
+		private String sourceapplicationid;
+		private String sourceapplicationno;
+		private String sourceauthenticationtoken;
+		private String sourcecustomerid;
+		private String spousename;
+		private String title;
+		private int uid;
+		private String cycNo;
+		private String motherName;
+		private String taxId;
+		private String ucic;
+		private String ucicType;
+		private String uidType;
+		private String assignUcic;
+		private String fatherFirstName;
+		private String fatherLastName;
+}
